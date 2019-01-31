@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Timer from './Timer';
+import './game.css';
 
 const signList = ['+', '-', '*', '/'];
 
@@ -80,7 +81,7 @@ export default class Game extends Component {
       <div>
         <p>Game on !</p>
         <Timer seconds={this.state.seconds} />
-        <p>{calcTab[0]}</p>
+        <p className="calcul">{calcTab[0]}</p>
         <label>Answer</label>
         <input
           value={answer}

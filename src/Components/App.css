@@ -1,3 +1,11 @@
 .App {
+  color: rgb(226, 204, 204);
   text-align: center;
+}
+button {
+  margin: 10px;
+  padding: 10px 30px;
+  background: rgb(218, 206, 206);
+  font-size: 16px;
+  border-radius: 5px;
 }
